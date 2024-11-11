@@ -1,0 +1,59 @@
+.aboutObject {
+  background-color: lightgreen;
+  border: 10px solid brown;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 10px 10px 10px black;
+}
+
+.aboutTower {
+  background-color: red;
+  border: 10px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  width: 300px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  background-color: lightcoral;
+  border: 5px solid black;
+}
+
+#eiffelPic {
+  object-fit: fill;
+}
+
+#eiffelPic1 {
+  object-fit: contain;
+}
+
+#eiffelPic2 {
+  object-fit: cover;
+}
+
+#eiffelPic3 {
+  object-fit: none;
+}
+
+#eiffelPic4 {
+  object-fit: scale-down;
+}
+
+.runnerPic {
+  width: 500px;
+  height: 500px;
+}
+
+#sunjae {
+  object-fit: none;
+  object-position: -350px -20px;
+}
+
+#sol {
+  object-fit: none;
+  object-position: -900px -50px;
+}
